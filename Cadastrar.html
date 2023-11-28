@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="media/icon.png">
     <link rel="stylesheet" href="Login/Login.css">
-    <script src="Login/Login.js"></script>
+    <script src="Cadastrar/Cadastrar.js"></script>
     <title>Saúde na Prática</title>
 </head>
 <body>
@@ -23,24 +23,17 @@
                     <span class="user-icon">👤 Login</span></a></li>
             </ul>
     </header>
-    <div class="main-login">
-        <div class="left-login">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="Usuário">Usuário</label>
-                    <input type="text" name="Usuário" id="user" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="Senha">Senha</label>
-                    <input type="password" name="Senha" id="senha" placeholder="Senha">
-                </div>
-                <button class="btn-login" id="btnLogin">Login</button>
-                <li><a href="Cadastrar.html">Fazer Cadastro</a></li>
-            </div>
-        </div>
-    </div>
+    <h1>Novo Cadastro</h1>
+    <form id="formularioCad" class="formulario">
+        Nome:<input type="text" id="nome" /><br />
+        Sobrenome:<input type="text" id="sobrenome" /><br />
+        Data Nascimento:<input type="date" id="nascimento" /><br />
+        CPF:<input type="text" id="cpf" /><br />
+        E-mail:<input type="email" id="email" />
+        Senha:<input type="password" id="senha" />
+        <button type="submit" >ConfirmarCadastro</button>
+        <br>
+        <br>
+        <br>
+    </form>
 </body>
-</html>

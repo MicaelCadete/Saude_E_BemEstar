@@ -74,7 +74,8 @@ a:hover {
 }
 
 section {
-    width: 100%;
+    width: 80%; /* Reduzi a largura para 80% */
+    margin: 20px auto; /* Centralizei o card e removi a margem superior */
     border: none;
     border-radius: 10px;
     padding: 15px;
@@ -84,7 +85,6 @@ section {
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
-    margin-top: 45px; /* Ajuste a distância conforme necessário */
 }
 
 section h2 {
@@ -92,17 +92,20 @@ section h2 {
     font-size: 2.5rem;
     margin: 2rem;
 }
-section form{
+
+section form {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-form label{
+
+form label {
     color: white;
     font-size: 17px;
     margin-bottom: 4px;
 }
-form input{
+
+form input {
     padding: 15px;
     outline: none;
     border: 0;
@@ -110,10 +113,12 @@ form input{
     font-size: 15px;
     transition: all 0.5s;
 }
-form input:focus{
+
+form input:focus {
     border-radius: 16px;
 }
-form textarea{
+
+form textarea {
     padding: 10px;
     outline: none;
     border: 0;
@@ -121,10 +126,12 @@ form textarea{
     margin-bottom: 30px;
     transition: all 0.5s;
 }
-form textarea:focus{
+
+form textarea:focus {
     border-radius: 16px;
 }
-form button{
+
+form button {
     padding: 15px;
     cursor: pointer;
     font-size: 16px;
@@ -134,7 +141,8 @@ form button{
     transition: all 1s;
     margin-bottom: 20px;
 }
-form button:hover{
+
+form button:hover {
     background: white;
     color: rgb(52, 51, 51);
     border-radius: 16px;
@@ -142,23 +150,26 @@ form button:hover{
 
 /*pagina do obrigado*/
 
-.main{
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(34,34,34);
+    background: rgb(34, 34, 34);
     flex-direction: column;
 }
-.text{
+
+.text {
     font-size: 45px;
     color: white;
     margin-bottom: 30px;
 }
-.paragrafo{
+
+.paragrafo {
     color: white;
     margin-bottom: 50px;
 }
-.btn{
+
+.btn {
     padding: 15px 55px;
     background: white;
     text-decoration: none;
@@ -166,8 +177,7 @@ form button:hover{
     font-size: 18px;
     transition: all 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     border-radius: 16px;
 }
-
-
