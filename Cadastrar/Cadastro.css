@@ -1,3 +1,5 @@
+/* Cadastro.css */
+
 body {
     background-color: rgb(34, 34, 34);
     color: white;
@@ -53,54 +55,21 @@ a:hover {
     color: white;
 }
 
-.main-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    margin-top: 1vh;
+/* Estilos específicos para a página de cadastro */
+h1 {
+    margin-top: 20px; /* Ajuste o espaçamento conforme necessário */
 }
 
-#title:hover {
-    color: rgba(57, 255, 166, 0.744);
-    transition: color 0.75s ease;
-}
-
-.right-login {
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-login {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
+.formulario {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
     background-color: rgb(52, 52, 52);
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.card-login > h1 {
-    color: rgb(57, 255, 166, 0.744);
-    font-weight: 800;
-    margin: 0;
-}
-
-.textfield {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 10px 0px;
-}
-
-.textfield > input {
+.formulario input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -111,22 +80,12 @@ a:hover {
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
-.textfield > label {
-    color: white;
-    margin-bottom: 10px;
-}
-
-.textfield > input::placeholder {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.btn-login {
+.formulario button {
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -137,10 +96,25 @@ a:hover {
     background: rgb(57, 255, 166, 0.744);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px rgba(3, 197, 110, 0.744);
+    margin-bottom: -20px;
 }
 
-img {
-    width: 10%;
+h1#tituloCadastro {
+    text-align: center;
+    color: rgb(57, 255, 166, 0.744);
+    margin-top: 20px; 
 }
 
+.formulario {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
 
+#title:hover {
+    color: rgba(57, 255, 166, 0.744);
+    transition: color 0.75s ease;
+}

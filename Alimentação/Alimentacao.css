@@ -170,8 +170,11 @@ p {
   display: block;
   padding: 16px;
   text-decoration: none;
-  font-family: sans-serif;
+  cursor: auto;
   font-weight: 600;
 }
 
-
+#title:hover {
+  color: rgba(57, 255, 166, 0.744);
+  transition: color 0.75s ease;
+}

@@ -9,7 +9,7 @@ body {
 }
 
 .user-icon {
-    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+    margin-right: 5px;
 }
 
 header {
@@ -75,6 +75,11 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+}
+
+#title:hover {
+    color: rgba(57, 255, 166, 0.744);
+    transition: color 0.75s ease;
 }
 
 h2{
